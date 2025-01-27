@@ -32,7 +32,6 @@
 	function addToWatchlist(name: string) {
 		watchlist = [...watchlist, name];
 	}
-
 	$: {
 		searchByName(searchAnimal);
 	}
