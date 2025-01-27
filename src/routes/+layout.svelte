@@ -13,6 +13,10 @@
 		>
 		<a href="/todo" class={$page.url.pathname === '/todo' ? 'font-bold' : ''}>Zadolžitve</a>
 		<a href="/stevila" class={$page.url.pathname === '/stevila' ? 'font-bold' : ''}>Števila</a>
+		<a href="/posts" class={$page.url.pathname === '/posts' ? 'font-bold' : ''}>Posts</a>
+		<a href="/novoletne" class={$page.url.pathname === '/novoletne' ? 'font-bold' : ''}>Novoletne</a
+		>
+		<a href="/yearbook" class={$page.url.pathname === '/yearbook' ? 'font-bold' : ''}>Yearbook</a>
 	</div>
 </nav>
 
